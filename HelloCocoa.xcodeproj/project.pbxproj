@@ -24,6 +24,8 @@
 		F30C95C2169F8862009C6D30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F30C95C0169F8862009C6D30 /* InfoPlist.strings */; };
 		F30C95D0169F8F32009C6D30 /* ADViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F30C95CF169F8F32009C6D30 /* ADViewControllerTest.m */; };
 		F30C95DB169FA52D009C6D30 /* ADLearningTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F30C95DA169FA52D009C6D30 /* ADLearningTest.m */; };
+		F30C95EB16A04FCE009C6D30 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F30C95EA16A04FCE009C6D30 /* Icon@2x.png */; };
+		F30C95EE16A0503C009C6D30 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F30C95ED16A0503C009C6D30 /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		F30C95CF169F8F32009C6D30 /* ADViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADViewControllerTest.m; sourceTree = "<group>"; };
 		F30C95D9169FA52D009C6D30 /* ADLearningTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADLearningTest.h; sourceTree = "<group>"; };
 		F30C95DA169FA52D009C6D30 /* ADLearningTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADLearningTest.m; sourceTree = "<group>"; };
+		F30C95EA16A04FCE009C6D30 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		F30C95ED16A0503C009C6D30 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		F30C9584169F8861009C6D30 = {
 			isa = PBXGroup;
 			children = (
+				F30C95ED16A0503C009C6D30 /* Icon.png */,
+				F30C95EA16A04FCE009C6D30 /* Icon@2x.png */,
 				F30C9599169F8861009C6D30 /* HelloCocoa */,
 				F30C95BD169F8862009C6D30 /* HelloCocoaTests */,
 				F30C9592169F8861009C6D30 /* Frameworks */,
@@ -242,6 +248,8 @@
 				F30C95A8169F8861009C6D30 /* Default@2x.png in Resources */,
 				F30C95AA169F8861009C6D30 /* Default-568h@2x.png in Resources */,
 				F30C95B0169F8861009C6D30 /* ADViewController.xib in Resources */,
+				F30C95EB16A04FCE009C6D30 /* Icon@2x.png in Resources */,
+				F30C95EE16A0503C009C6D30 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,7 +359,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -372,7 +380,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -387,6 +395,7 @@
 				INFOPLIST_FILE = "HelloCocoa/HelloCocoa-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -447,7 +456,7 @@
 				F30C95C7169F8862009C6D30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		F30C95C8169F8862009C6D30 /* Build configuration list for PBXNativeTarget "HelloCocoa" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +465,7 @@
 				F30C95CA169F8862009C6D30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		F30C95CB169F8862009C6D30 /* Build configuration list for PBXNativeTarget "HelloCocoaTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +474,7 @@
 				F30C95CD169F8862009C6D30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
