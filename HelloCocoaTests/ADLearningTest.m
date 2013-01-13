@@ -33,6 +33,11 @@
     STAssertEqualObjects(foo, bar, @"STAssertEqualObjects has failed: Objects should be equal");
 }
 
+- (void)testSTAssertEqualsWithAccuracy
+{
+    STAssertEqualsWithAccuracy(10, 12, 2, @"STAssertEqualsWithAccuracy has failed: difference between two values is greater than expected");
+}
+
 - (void)testSTAssertNil
 {
     STAssertNil(nil, @"Should be nil");
