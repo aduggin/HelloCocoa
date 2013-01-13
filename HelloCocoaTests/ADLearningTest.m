@@ -24,12 +24,23 @@
 {
     STAssertEquals(24, 24 ,@"STAssertFalse has failed: Numbers should be the same.",nil);
 }
+
 - (void)testSTAssertEqualObjects
 {
     NSString *foo = @"myString";
     NSString *bar = @"myString";
     
     STAssertEqualObjects(foo, bar, @"STAssertEqualObjects has failed: Objects should be equal");
+}
+
+- (void)testSTAssertNil
+{
+    STAssertNil(nil, @"Should be nil");
+}
+
+- (void)testSTAssertNotNil
+{
+    STAssertNotNil(@"I'm not nil", @"Should not be nil");
 }
 
 @end
