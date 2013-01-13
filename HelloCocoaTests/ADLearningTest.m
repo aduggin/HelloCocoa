@@ -27,7 +27,7 @@
 - (void)testSTAssertEqualObjects
 {
     NSString *foo = @"myString";
-    NSString *bar = @"myString";
+    NSString *bar = @"myStringFoo";
     
     STAssertEqualObjects(foo, bar, @"STAssertEqualObjects has failed: Objects should be equal");
 }
