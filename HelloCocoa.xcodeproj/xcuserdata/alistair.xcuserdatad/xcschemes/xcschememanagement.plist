@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>HelloCocoa-cal.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>HelloCocoa.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>1e01516a8258ab70abe4cfa0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>F30C958E169F8861009C6D30</key>
 		<dict>
 			<key>primary</key>
