@@ -12,4 +12,6 @@ end
 
 Then /^the label should contain the text 'Click me!'$/ do
   query("label index:2", :accessibilityLabel)[0].should == 'Click me!'
+  screenshot
+  puts server_version
 end

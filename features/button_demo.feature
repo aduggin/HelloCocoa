@@ -6,5 +6,4 @@ Scenario: Button updates label with button title
   Given I am on the Welcome Screen
   And I see a label containing 'Hello'
   When I touch 'Click me!'
- # When I touch the "login" button
   Then the label should contain the text 'Click me!'
