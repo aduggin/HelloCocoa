@@ -1,15 +1,15 @@
 Given /^I am on the Welcome Screen$/ do
-  # do nothing
+  sleep(1)
 end
 
-Then /^I should see a label containing 'Hello'$/ do
+And /^I see a label containing 'Hello'$/ do
   query("label index:2", :accessibilityLabel)[0].should == 'Hello'
 end
 
-When /^I touch the 'Click me!' button$/ do
+When /^I touch 'Click me!'$/ do
   touch("button marked:'Click me!'")
 end
 
-Then /^I the label should contain 'Click me!'$/ do
+Then /^the label should contain the text 'Click me!'$/ do
   query("label index:2", :accessibilityLabel)[0].should == 'Click me!'
 end
