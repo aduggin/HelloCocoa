@@ -30,7 +30,6 @@
 		F30C95B9169F8862009C6D30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30C9593169F8861009C6D30 /* UIKit.framework */; };
 		F30C95BA169F8862009C6D30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30C9595169F8861009C6D30 /* Foundation.framework */; };
 		F30C95C2169F8862009C6D30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F30C95C0169F8862009C6D30 /* InfoPlist.strings */; };
-		F30C95D0169F8F32009C6D30 /* ADViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F30C95CF169F8F32009C6D30 /* ADViewControllerTest.m */; };
 		F30C95DB169FA52D009C6D30 /* ADLearningTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F30C95DA169FA52D009C6D30 /* ADLearningTest.m */; };
 		F30C95EB16A04FCE009C6D30 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F30C95EA16A04FCE009C6D30 /* Icon@2x.png */; };
 		F30C95EE16A0503C009C6D30 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F30C95ED16A0503C009C6D30 /* Icon.png */; };
@@ -75,8 +74,6 @@
 		F30C95B7169F8862009C6D30 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		F30C95BF169F8862009C6D30 /* HelloCocoaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloCocoaTests-Info.plist"; sourceTree = "<group>"; };
 		F30C95C1169F8862009C6D30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F30C95CE169F8F32009C6D30 /* ADViewControllerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADViewControllerTest.h; sourceTree = "<group>"; };
-		F30C95CF169F8F32009C6D30 /* ADViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADViewControllerTest.m; sourceTree = "<group>"; };
 		F30C95D9169FA52D009C6D30 /* ADLearningTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADLearningTest.h; sourceTree = "<group>"; };
 		F30C95DA169FA52D009C6D30 /* ADLearningTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADLearningTest.m; sourceTree = "<group>"; };
 		F30C95EA16A04FCE009C6D30 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
@@ -187,8 +184,6 @@
 			isa = PBXGroup;
 			children = (
 				F30C95BE169F8862009C6D30 /* Supporting Files */,
-				F30C95CE169F8F32009C6D30 /* ADViewControllerTest.h */,
-				F30C95CF169F8F32009C6D30 /* ADViewControllerTest.m */,
 				F30C95D9169FA52D009C6D30 /* ADLearningTest.h */,
 				F30C95DA169FA52D009C6D30 /* ADLearningTest.m */,
 			);
@@ -369,7 +364,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F30C95D0169F8F32009C6D30 /* ADViewControllerTest.m in Sources */,
 				F30C95DB169FA52D009C6D30 /* ADLearningTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
