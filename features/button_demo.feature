@@ -1,7 +1,6 @@
 Feature: Button Demo
-  As an iOS developer
-  I want to have a sample feature file
-  So I can begin testing quickly
+  As a new iOS developer
+  I want to add a button that update a label to help me learn outlets, actions and OCUnit
 
 Scenario: Button updates label with button title
   Given I am on the Welcome Screen
