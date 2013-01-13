@@ -6,24 +6,37 @@
 //  Copyright (c) 2013 Alistair Duggin. All rights reserved.
 //
 
+/*
+ Unconditional Failure
+ STFail
+ 
+ Equality Tests
+ STAssertEqualObjects
+ STAssertEquals
+ STAssertEqualsWithAccuracy
+ 
+ Nil Tests
+ STAssertNil
+ STAssertNotNil
+ 
+ Boolean Tests
+ STAssertTrue
+ STAssertFalse
+ 
+ Exception Tests
+ STAssertThrows
+ STAssertThrowsSpecific
+ STAssertThrowsSpecificNamed
+ STAssertNoThrow
+ STAssertNoThrowSpecific
+ STAssertNoThrowSpecificNamed
+ STAssertTrueNoThrow
+ STAssertFalseNoThrow
+ */
+
 #import "ADLearningTest.h"
 
 @implementation ADLearningTest
-
-- (void)testSTAssertTrue
-{
-    STAssertTrue(TRUE,@"STAssertTrue has passed.",nil);
-}
-
-- (void)testSTAssertFalse
-{
-    STAssertFalse(FALSE,@"STAssertFalse has failed.",nil);
-}
-
-- (void)testSTAssertEquals
-{
-    STAssertEquals(24, 24 ,@"STAssertFalse has failed: Numbers should be the same.",nil);
-}
 
 - (void)testSTAssertEqualObjects
 {
@@ -31,6 +44,11 @@
     NSString *bar = @"myString";
     
     STAssertEqualObjects(foo, bar, @"STAssertEqualObjects has failed: Objects should be equal");
+}
+
+- (void)testSTAssertEquals
+{
+    STAssertEquals(24, 24 ,@"STAssertFalse has failed: Numbers should be the same.",nil);
 }
 
 - (void)testSTAssertEqualsWithAccuracy
@@ -46,6 +64,16 @@
 - (void)testSTAssertNotNil
 {
     STAssertNotNil(@"I'm not nil", @"Should not be nil");
+}
+
+- (void)testSTAssertTrue
+{
+    STAssertTrue(TRUE,@"STAssertTrue has passed.",nil);
+}
+
+- (void)testSTAssertFalse
+{
+    STAssertFalse(FALSE,@"STAssertFalse has failed.",nil);
 }
 
 @end
