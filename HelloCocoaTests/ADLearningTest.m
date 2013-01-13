@@ -42,7 +42,7 @@
 {
     NSString *foo = @"myString";
     NSString *bar = @"myString";
-    
+
     STAssertEqualObjects(foo, bar, @"STAssertEqualObjects has failed: Objects should be equal");
 }
 
